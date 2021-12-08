@@ -9,7 +9,7 @@
             {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
-                <a href="{{site.baseurl}}">
+                <a href="{{site.baseurl}}/">
                     {{ site.title | escape }}
                 </a>
             </li>
@@ -17,13 +17,13 @@
             <li class="divider"></li>
 
             <!-- search link -->
-            <li>
+            <!-- <li>
                 <a href="{{site.baseurl}}/search">
                     Search
                 </a>
             </li>
 
-            <li class="divider"></li>
+            <li class="divider"></li> -->
 
             {% assign reversed_posts = site.posts | reverse %}
 
@@ -47,10 +47,34 @@
             <li class="divider"></li>
 
             <li>
-                <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
-                    Fork it Now!
+                <a href="https://huggingface.co/spaces/autosummproject/autosumm/tree/main">
+                    Repositório
                 </a>
             </li>
+            
+            <div style="position: fixed; bottom: 0;">
+                <li class="divider"></li>
+                <li>
+                    <a style="text-decoration: none; padding-bottom: 0%; font-weight: bold;">Integrantes:</a>
+                    <a style="text-decoration: none; padding-bottom: 0%; padding-top: 0%;">Lucas Antunes Rodrigues</a>
+                    <a style="text-decoration: none; padding-top: 0%;">Matheus Henrique de Sousa Vieira</a>
+                </li>
+                <li>
+                    <a style="text-decoration: none; padding-bottom: 0%; font-weight: bold;">Orientadora:</a>
+                </li>
+                <li>
+                    <a style="text-decoration: none; padding-top: 0%;">Profa. Dra. Anna Helena Reali Costa</a>
+                </li>
+                
+                <li class="divider"></li>
+
+                <li>
+                    <a href="{{site.baseurl}}/license.html">
+                        Licença
+                    </a>
+                </li>
+            </div>
+
         </ul>
     </nav>
 </div>

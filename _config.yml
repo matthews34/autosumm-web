@@ -4,7 +4,7 @@ longtitle:        AutoSumm
 author:           Lucas Antunes & Matheus Vieira
 #email:            sighingnow@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  Um sistema para sumarização de múltiplos documentos.
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -40,7 +40,7 @@ kramdown:
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
+permalink:        /:categories/:title
 
 exclude:
   - _drafts
